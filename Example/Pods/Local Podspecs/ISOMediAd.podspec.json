@@ -1,6 +1,6 @@
 {
   "name": "ISOMediAd",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of ISOMediAd.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SandsLee/ISOMediAd",
@@ -9,14 +9,85 @@
     "file": "LICENSE"
   },
   "authors": {
-    "SandsLee": "shuzhi.li@quvideo.com"
+    "lishuzhi1121": "lishuzhi1121@163.com"
   },
   "source": {
     "git": "https://github.com/SandsLee/ISOMediAd.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "ISOMediAd/Classes/**/*"
+  "static_framework": true,
+  "source_files": "ISOMediAd/Classes/**/*",
+  "vendored_frameworks": [
+    "ISOMediAd/PrivateSDK/ApplinsSDK.framework",
+    "ISOMediAd/PrivateSDK/IWOWMoatMobileAppKit.framework",
+    "ISOMediAd/PrivateSDK/JRAnalysisKit.framework",
+    "ISOMediAd/PrivateSDK/XYADFramework.framework"
+  ],
+  "libraries": "resolv",
+  "frameworks": "AdSupport",
+  "dependencies": {
+    "FBAudienceNetwork": [
+      "6.2.1"
+    ],
+    "Google-Mobile-Ads-SDK": [
+      "7.69.0"
+    ],
+    "GoogleMobileAdsMediationFacebook": [
+
+    ],
+    "GoogleMobileAdsMediationTestSuite": [
+
+    ],
+    "MintegralAdSDK/NativeAd": [
+      "~> 6.7.2.0"
+    ],
+    "MintegralAdSDK/InterstitialVideoAd": [
+      "~> 6.7.2.0"
+    ],
+    "MintegralAdSDK/RewardVideoAd": [
+      "~> 6.7.2.0"
+    ],
+    "MintegralAdSDK/InterstitialAd": [
+      "~> 6.7.2.0"
+    ],
+    "MintegralAdSDK/BannerAd": [
+      "~> 6.7.2.0"
+    ],
+    "MintegralAdSDK/SplashAd": [
+      "~> 6.7.2.0"
+    ],
+    "MintegralAdSDK/NativeAdvancedAd": [
+      "~> 6.7.2.0"
+    ],
+    "mopub-ios-sdk": [
+      "5.12.1"
+    ],
+    "VungleSDK-iOS": [
+      "6.9.1"
+    ],
+    "AFNetworking": [
+      "~> 4.0"
+    ],
+    "SDWebImage": [
+      "~> 5.10"
+    ],
+    "SVProgressHUD": [
+      "~> 2.2.5"
+    ],
+    "Mantle": [
+      "~> 2.1.6"
+    ],
+    "Reachability": [
+      "~> 3.2"
+    ],
+    "Masonry": [
+
+    ],
+    "YYModel": [
+
+    ]
+  }
 }

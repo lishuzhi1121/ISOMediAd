@@ -1,0 +1,6 @@
+framework module JRAnalysisKit {
+  umbrella header "JRAnalysisKit.h"
+
+  export *
+  module * { export * }
+}

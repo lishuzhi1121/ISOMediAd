@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISOMediAd'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of ISOMediAd.'
 
 # This description is used to generate tags and improve search results.
@@ -24,19 +24,52 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/SandsLee/ISOMediAd'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SandsLee' => 'shuzhi.li@quvideo.com' }
+  s.author           = { 'lishuzhi1121' => 'lishuzhi1121@163.com' }
   s.source           = { :git => 'https://github.com/SandsLee/ISOMediAd.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
+  s.static_framework = true
+
 
   s.source_files = 'ISOMediAd/Classes/**/*'
-  
+  s.vendored_frameworks = 'ISOMediAd/PrivateSDK/ApplinsSDK.framework','ISOMediAd/PrivateSDK/IWOWMoatMobileAppKit.framework','ISOMediAd/PrivateSDK/JRAnalysisKit.framework','ISOMediAd/PrivateSDK/XYADFramework.framework'
   # s.resource_bundles = {
   #   'ISOMediAd' => ['ISOMediAd/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #系统组件
+  s.library = "resolv"
+  s.frameworks = 'AdSupport'
+
+  # 广告商SDK
+  s.dependency 'FBAudienceNetwork','6.2.1'
+
+  s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
+  s.dependency 'GoogleMobileAdsMediationFacebook'
+  s.dependency 'GoogleMobileAdsMediationTestSuite'
+
+  s.dependency 'MintegralAdSDK/NativeAd', '~> 6.7.2.0'
+  s.dependency 'MintegralAdSDK/InterstitialVideoAd', '~> 6.7.2.0'
+  s.dependency 'MintegralAdSDK/RewardVideoAd', '~> 6.7.2.0'
+  s.dependency 'MintegralAdSDK/InterstitialAd', '~> 6.7.2.0'
+  s.dependency 'MintegralAdSDK/BannerAd', '~> 6.7.2.0'
+  s.dependency 'MintegralAdSDK/SplashAd', '~> 6.7.2.0'
+  s.dependency 'MintegralAdSDK/NativeAdvancedAd', '~> 6.7.2.0'
+  
+  s.dependency 'mopub-ios-sdk', '5.12.1'
+  
+  s.dependency 'VungleSDK-iOS', '6.9.1'
+
+  # 第三方库
+  s.dependency 'AFNetworking', '~> 4.0'
+  s.dependency 'SDWebImage', '~> 5.10'
+  s.dependency 'SVProgressHUD', '~> 2.2.5'
+  s.dependency 'Mantle', '~> 2.1.6'
+  s.dependency 'Reachability', '~> 3.2'
+  s.dependency 'Masonry'
+  s.dependency 'YYModel'
+
+
 end

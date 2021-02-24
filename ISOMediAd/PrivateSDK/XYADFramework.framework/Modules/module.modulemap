@@ -1,0 +1,6 @@
+framework module XYADFramework {
+  umbrella header "XYADFramework.h"
+
+  export *
+  module * { export * }
+}
