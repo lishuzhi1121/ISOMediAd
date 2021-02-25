@@ -70,6 +70,7 @@ PODS:
     - MintegralAdSDK/SplashAd (~> 6.7.2.0)
     - mopub-ios-sdk (= 5.12.1)
     - Reachability (~> 3.2)
+    - ReactiveObjC
     - SDWebImage (~> 5.10)
     - SVProgressHUD (~> 2.2.5)
     - VungleSDK-iOS (= 6.9.1)
@@ -243,6 +244,7 @@ PODS:
   - nanopb/encode (2.30907.0)
   - PromisesObjC (1.2.12)
   - Reachability (3.2)
+  - ReactiveObjC (3.1.1)
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
@@ -274,6 +276,7 @@ SPEC REPOS:
     - nanopb
     - PromisesObjC
     - Reachability
+    - ReactiveObjC
     - SDWebImage
     - SVProgressHUD
     - VungleSDK-iOS
@@ -293,7 +296,7 @@ SPEC CHECKSUMS:
   GoogleMobileAdsMediationTestSuite: a6611af7b6bf227c05fee84083f3a0f2f8e3c558
   GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
   GoogleUtilities: 31c5b01f978a70c6cff2afc6272b3f1921614b43
-  ISOMediAd: 011d9bee192d127323191c156107d81f066ae92c
+  ISOMediAd: fceb4b0910f3d5f777a941d5f738c57c55168235
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MaterialComponents: 2cdc12c16528ed7e6f1d5bd6d6927c47f9f4e90f
@@ -304,6 +307,7 @@ SPEC CHECKSUMS:
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   VungleSDK-iOS: 09abfadbcc04e0748ce33c6bd02282e9961125ba

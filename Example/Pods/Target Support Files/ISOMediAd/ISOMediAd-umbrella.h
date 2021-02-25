@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ISOMediAd.h"
 
 FOUNDATION_EXPORT double ISOMediAdVersionNumber;
 FOUNDATION_EXPORT const unsigned char ISOMediAdVersionString[];

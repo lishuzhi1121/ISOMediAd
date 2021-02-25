@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ISOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ISOAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ISOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ISOViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +21,17 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		824961C840350BFA4CF729FC /* Pods_ISOMediAd_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00487FBB2EA317EB3D300623 /* Pods_ISOMediAd_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9D4E19E65EB357DEAE73F819 /* Pods_ISOMediAd_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E6E84A36B5D6D66DD899C /* Pods_ISOMediAd_Example.framework */; };
+		B1C2FCD725E792E80000B723 /* XYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCC325E792E70000B723 /* XYTableViewController.m */; };
+		B1C2FCD825E792E80000B723 /* XYSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCC625E792E70000B723 /* XYSettingsTableViewController.m */; };
+		B1C2FCD925E792E80000B723 /* XYCommonAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCC925E792E70000B723 /* XYCommonAdsViewController.m */; };
+		B1C2FCDA25E792E80000B723 /* XYNativeAdCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCCE25E792E80000B723 /* XYNativeAdCollectionViewController.m */; };
+		B1C2FCDB25E792E80000B723 /* XYNativeAdsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCCF25E792E80000B723 /* XYNativeAdsCollectionViewController.m */; };
+		B1C2FCDC25E792E80000B723 /* XYPlaceholderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCD025E792E80000B723 /* XYPlaceholderCollectionViewCell.m */; };
+		B1C2FCDD25E792E80000B723 /* XYNativeAdsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCD225E792E80000B723 /* XYNativeAdsCollectionViewCell.m */; };
+		B1C2FCDE25E792E80000B723 /* UIColor+XYRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2FCD525E792E80000B723 /* UIColor+XYRandom.m */; };
+		B1C2FCE625E7930B0000B723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C2FCE525E7930B0000B723 /* Main.storyboard */; };
+		B1C2FCEC25E793FB0000B723 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C2FCEB25E793FB0000B723 /* config.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +60,6 @@
 		6003F59B195388D20070C39A /* ISOMediAd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISOMediAd-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ISOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISOAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ISOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISOAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ISOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISOViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ISOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISOViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ISOMediAd_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISOMediAd_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,9 +68,27 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D65027CCA9B4426D4A8E2A4 /* ISOMediAd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ISOMediAd.podspec; path = ../ISOMediAd.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A57E6E84A36B5D6D66DD899C /* Pods_ISOMediAd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISOMediAd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C2FCC225E792E70000B723 /* XYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTableViewController.h; sourceTree = "<group>"; };
+		B1C2FCC325E792E70000B723 /* XYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTableViewController.m; sourceTree = "<group>"; };
+		B1C2FCC525E792E70000B723 /* XYSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSettingsTableViewController.h; sourceTree = "<group>"; };
+		B1C2FCC625E792E70000B723 /* XYSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSettingsTableViewController.m; sourceTree = "<group>"; };
+		B1C2FCC825E792E70000B723 /* XYCommonAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCommonAdsViewController.h; sourceTree = "<group>"; };
+		B1C2FCC925E792E70000B723 /* XYCommonAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCommonAdsViewController.m; sourceTree = "<group>"; };
+		B1C2FCCB25E792E80000B723 /* XYPlaceholderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPlaceholderCollectionViewCell.h; sourceTree = "<group>"; };
+		B1C2FCCC25E792E80000B723 /* XYNativeAdsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNativeAdsCollectionViewController.h; sourceTree = "<group>"; };
+		B1C2FCCD25E792E80000B723 /* XYNativeAdsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNativeAdsCollectionViewCell.h; sourceTree = "<group>"; };
+		B1C2FCCE25E792E80000B723 /* XYNativeAdCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNativeAdCollectionViewController.m; sourceTree = "<group>"; };
+		B1C2FCCF25E792E80000B723 /* XYNativeAdsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNativeAdsCollectionViewController.m; sourceTree = "<group>"; };
+		B1C2FCD025E792E80000B723 /* XYPlaceholderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPlaceholderCollectionViewCell.m; sourceTree = "<group>"; };
+		B1C2FCD125E792E80000B723 /* XYNativeAdCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNativeAdCollectionViewController.h; sourceTree = "<group>"; };
+		B1C2FCD225E792E80000B723 /* XYNativeAdsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNativeAdsCollectionViewCell.m; sourceTree = "<group>"; };
+		B1C2FCD425E792E80000B723 /* XYAdsCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAdsCommonDefine.h; sourceTree = "<group>"; };
+		B1C2FCD525E792E80000B723 /* UIColor+XYRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XYRandom.m"; sourceTree = "<group>"; };
+		B1C2FCD625E792E80000B723 /* UIColor+XYRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XYRandom.h"; sourceTree = "<group>"; };
+		B1C2FCE525E7930B0000B723 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B1C2FCEB25E793FB0000B723 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		B719ADC2920E3A74C0415183 /* Pods-ISOMediAd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISOMediAd_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ISOMediAd_Tests/Pods-ISOMediAd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D30475EED2B9BB6648AE1D0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,11 +167,15 @@
 		6003F593195388D20070C39A /* Example for ISOMediAd */ = {
 			isa = PBXGroup;
 			children = (
+				B1C2FCEB25E793FB0000B723 /* config.json */,
 				6003F59C195388D20070C39A /* ISOAppDelegate.h */,
 				6003F59D195388D20070C39A /* ISOAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ISOViewController.h */,
-				6003F5A6195388D20070C39A /* ISOViewController.m */,
+				B1C2FCC725E792E70000B723 /* CommonAds */,
+				B1C2FCC125E792E70000B723 /* Main */,
+				B1C2FCCA25E792E80000B723 /* NativeAds */,
+				B1C2FCC425E792E70000B723 /* Settings */,
+				B1C2FCD325E792E80000B723 /* Utils */,
+				B1C2FCE525E7930B0000B723 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +222,58 @@
 				3B4AE2EB81AA3FF2B5ECC1E1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B1C2FCC125E792E70000B723 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B1C2FCC225E792E70000B723 /* XYTableViewController.h */,
+				B1C2FCC325E792E70000B723 /* XYTableViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B1C2FCC425E792E70000B723 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B1C2FCC525E792E70000B723 /* XYSettingsTableViewController.h */,
+				B1C2FCC625E792E70000B723 /* XYSettingsTableViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B1C2FCC725E792E70000B723 /* CommonAds */ = {
+			isa = PBXGroup;
+			children = (
+				B1C2FCC825E792E70000B723 /* XYCommonAdsViewController.h */,
+				B1C2FCC925E792E70000B723 /* XYCommonAdsViewController.m */,
+			);
+			path = CommonAds;
+			sourceTree = "<group>";
+		};
+		B1C2FCCA25E792E80000B723 /* NativeAds */ = {
+			isa = PBXGroup;
+			children = (
+				B1C2FCCB25E792E80000B723 /* XYPlaceholderCollectionViewCell.h */,
+				B1C2FCCC25E792E80000B723 /* XYNativeAdsCollectionViewController.h */,
+				B1C2FCCD25E792E80000B723 /* XYNativeAdsCollectionViewCell.h */,
+				B1C2FCCE25E792E80000B723 /* XYNativeAdCollectionViewController.m */,
+				B1C2FCCF25E792E80000B723 /* XYNativeAdsCollectionViewController.m */,
+				B1C2FCD025E792E80000B723 /* XYPlaceholderCollectionViewCell.m */,
+				B1C2FCD125E792E80000B723 /* XYNativeAdCollectionViewController.h */,
+				B1C2FCD225E792E80000B723 /* XYNativeAdsCollectionViewCell.m */,
+			);
+			path = NativeAds;
+			sourceTree = "<group>";
+		};
+		B1C2FCD325E792E80000B723 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B1C2FCD425E792E80000B723 /* XYAdsCommonDefine.h */,
+				B1C2FCD525E792E80000B723 /* UIColor+XYRandom.m */,
+				B1C2FCD625E792E80000B723 /* UIColor+XYRandom.h */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +361,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				B1C2FCEC25E793FB0000B723 /* config.json in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B1C2FCE625E7930B0000B723 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +419,7 @@
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
@@ -356,6 +438,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
@@ -414,8 +497,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C2FCDC25E792E80000B723 /* XYPlaceholderCollectionViewCell.m in Sources */,
+				B1C2FCDD25E792E80000B723 /* XYNativeAdsCollectionViewCell.m in Sources */,
+				B1C2FCDA25E792E80000B723 /* XYNativeAdCollectionViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ISOAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ISOViewController.m in Sources */,
+				B1C2FCDB25E792E80000B723 /* XYNativeAdsCollectionViewController.m in Sources */,
+				B1C2FCDE25E792E80000B723 /* UIColor+XYRandom.m in Sources */,
+				B1C2FCD825E792E80000B723 /* XYSettingsTableViewController.m in Sources */,
+				B1C2FCD925E792E80000B723 /* XYCommonAdsViewController.m in Sources */,
+				B1C2FCD725E792E80000B723 /* XYTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

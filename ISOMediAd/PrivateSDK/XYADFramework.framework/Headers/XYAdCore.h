@@ -153,14 +153,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)xyAdCore_registerAdsView:(XYAdView *)adView
                           adType:(XYAdType)type
-                  viewController:(UIViewController *)controller
-                withoutMediaView:(BOOL)withoutMediaView;
+                  viewController:(UIViewController *)controller;
 
 - (void)xyAdCore_registerAdsView:(XYAdView *)adView
                           adType:(XYAdType)type
                   viewController:(UIViewController *)controller
-                  clickableViews:(nullable NSArray<UIView *> *)clickableViews
-                withoutMediaView:(BOOL)withoutMediaView;
+                  clickableViews:(nullable NSArray<UIView *> *)clickableViews;
 
 /*
  *  获取广告View

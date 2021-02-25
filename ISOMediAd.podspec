@@ -70,6 +70,7 @@ Pod::Spec.new do |s|
   s.dependency 'Reachability', '~> 3.2'
   s.dependency 'Masonry'
   s.dependency 'YYModel'
+  s.dependency 'ReactiveObjC'
 
 
 end
