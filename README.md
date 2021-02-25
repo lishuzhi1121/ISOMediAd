@@ -22,7 +22,7 @@ pod 'ISOMediAd'
 
 ## Author
 
-SandsLee, shuzhi.li@quvideo.com
+SandsLee, lishuzhi1121@163.com
 
 ## License
 
