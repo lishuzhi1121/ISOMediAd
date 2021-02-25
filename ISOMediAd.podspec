@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   s.dependency 'MintegralAdSDK/SplashAd', '~> 6.7.2.0'
   s.dependency 'MintegralAdSDK/NativeAdvancedAd', '~> 6.7.2.0'
   
-  s.dependency 'mopub-ios-sdk', '5.12.1'
+  #s.dependency 'mopub-ios-sdk', '5.12.1'
   
   s.dependency 'VungleSDK-iOS', '6.9.1'
 

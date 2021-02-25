@@ -62,9 +62,6 @@
     "MintegralAdSDK/NativeAdvancedAd": [
       "~> 6.7.2.0"
     ],
-    "mopub-ios-sdk": [
-      "5.12.1"
-    ],
     "VungleSDK-iOS": [
       "6.9.1"
     ],

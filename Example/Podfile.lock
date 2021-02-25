@@ -68,7 +68,6 @@ PODS:
     - MintegralAdSDK/NativeAdvancedAd (~> 6.7.2.0)
     - MintegralAdSDK/RewardVideoAd (~> 6.7.2.0)
     - MintegralAdSDK/SplashAd (~> 6.7.2.0)
-    - mopub-ios-sdk (= 5.12.1)
     - Reachability (~> 3.2)
     - ReactiveObjC
     - SDWebImage (~> 5.10)
@@ -223,20 +222,6 @@ PODS:
     - MintegralAdSDK/NativeAd
   - MintegralAdSDK/SplashAd (6.7.2.0):
     - MintegralAdSDK/NativeAd
-  - mopub-ios-sdk (5.12.1):
-    - mopub-ios-sdk/MoPubSDK (= 5.12.1)
-  - mopub-ios-sdk/Avid (5.12.1):
-    - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (5.12.1)
-  - mopub-ios-sdk/Moat (5.12.1):
-    - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (5.12.1):
-    - mopub-ios-sdk/Avid
-    - mopub-ios-sdk/Core
-    - mopub-ios-sdk/Moat
-    - mopub-ios-sdk/NativeAds
-  - mopub-ios-sdk/NativeAds (5.12.1):
-    - mopub-ios-sdk/Core
   - nanopb (2.30907.0):
     - nanopb/decode (= 2.30907.0)
     - nanopb/encode (= 2.30907.0)
@@ -272,7 +257,6 @@ SPEC REPOS:
     - MDFInternationalization
     - MDFTextAccessibility
     - MintegralAdSDK
-    - mopub-ios-sdk
     - nanopb
     - PromisesObjC
     - Reachability
@@ -296,14 +280,13 @@ SPEC CHECKSUMS:
   GoogleMobileAdsMediationTestSuite: a6611af7b6bf227c05fee84083f3a0f2f8e3c558
   GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
   GoogleUtilities: 31c5b01f978a70c6cff2afc6272b3f1921614b43
-  ISOMediAd: fceb4b0910f3d5f777a941d5f738c57c55168235
+  ISOMediAd: e44a69ab8aa6d93cf48a7d3ea5ba780461e0afe5
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MaterialComponents: 2cdc12c16528ed7e6f1d5bd6d6927c47f9f4e90f
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   MintegralAdSDK: 079159b99cc2bb506b19d554abf6baf82d3b2e6d
-  mopub-ios-sdk: d1640225b34ad74700e2acddb116cac634fc45d8
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
