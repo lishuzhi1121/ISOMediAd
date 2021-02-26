@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <XYADFramework/XYAdPlatform.h>
+#import <XYADFramework/XYADFramework.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
