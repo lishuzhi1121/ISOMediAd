@@ -53,9 +53,9 @@ PODS:
   - "GoogleUtilities/NSData+zlib (7.2.2)"
   - GoogleUtilities/Reachability (7.2.2):
     - GoogleUtilities/Logger
-  - ISOMediAd (1.0.1):
+  - ISOMediAd (1.0.3):
     - AFNetworking (~> 4.0)
-    - FBAudienceNetwork (= 6.2.1)
+    - FBAudienceNetwork
     - Google-Mobile-Ads-SDK (= 7.69.0)
     - GoogleMobileAdsMediationFacebook
     - GoogleMobileAdsMediationTestSuite
@@ -280,7 +280,7 @@ SPEC CHECKSUMS:
   GoogleMobileAdsMediationTestSuite: a6611af7b6bf227c05fee84083f3a0f2f8e3c558
   GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
   GoogleUtilities: 31c5b01f978a70c6cff2afc6272b3f1921614b43
-  ISOMediAd: f214740128d21f63e21c7c84205e6876a881deb4
+  ISOMediAd: 039e2519c82c21194c02b70aa0e7ac6f7581152b
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MaterialComponents: 2cdc12c16528ed7e6f1d5bd6d6927c47f9f4e90f

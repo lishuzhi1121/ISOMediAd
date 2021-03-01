@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISOMediAd'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'ISOMediAd 广告中台隔离app专用版本.'
 
 # This description is used to generate tags and improve search results.
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'AdSupport'
 
   # 广告商SDK
-  s.dependency 'FBAudienceNetwork','6.2.1'
+  s.dependency 'FBAudienceNetwork'
 
   s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
   s.dependency 'GoogleMobileAdsMediationFacebook'
