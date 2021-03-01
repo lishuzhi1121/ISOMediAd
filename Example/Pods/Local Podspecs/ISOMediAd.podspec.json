@@ -1,6 +1,6 @@
 {
   "name": "ISOMediAd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "ISOMediAd 广告中台隔离app专用版本.",
   "description": "基于XYAdPlatform、XYAdCore封装的广告中台，打成framework供隔离环境的app专用。",
   "homepage": "https://github.com/lishuzhi1121/ISOMediAd",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lishuzhi1121/ISOMediAd.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"
@@ -69,7 +69,7 @@
       "~> 4.0"
     ],
     "SDWebImage": [
-      "~> 5.10"
+
     ],
     "SVProgressHUD": [
       "~> 2.2.5"

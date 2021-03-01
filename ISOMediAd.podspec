@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISOMediAd'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'ISOMediAd 广告中台隔离app专用版本.'
 
 # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
 
   # 第三方库
   s.dependency 'AFNetworking', '~> 4.0'
-  s.dependency 'SDWebImage', '~> 5.10'
+  s.dependency 'SDWebImage'
   s.dependency 'SVProgressHUD', '~> 2.2.5'
   s.dependency 'Mantle', '~> 2.1.6'
   s.dependency 'Reachability', '~> 3.2'
