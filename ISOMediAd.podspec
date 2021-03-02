@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISOMediAd'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'ISOMediAd 广告中台隔离app专用版本.'
 
 # This description is used to generate tags and improve search results.
@@ -71,6 +71,7 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry'
   s.dependency 'YYModel'
   s.dependency 'ReactiveObjC'
+  s.dependency 'QVEditorKit/Core'
 
 
 end

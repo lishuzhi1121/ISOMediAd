@@ -53,7 +53,7 @@ PODS:
   - "GoogleUtilities/NSData+zlib (7.2.2)"
   - GoogleUtilities/Reachability (7.2.2):
     - GoogleUtilities/Logger
-  - ISOMediAd (1.0.3):
+  - ISOMediAd (1.0.4):
     - AFNetworking (~> 4.0)
     - FBAudienceNetwork
     - Google-Mobile-Ads-SDK (= 7.69.0)
@@ -68,6 +68,7 @@ PODS:
     - MintegralAdSDK/NativeAdvancedAd (~> 6.7.2.0)
     - MintegralAdSDK/RewardVideoAd (~> 6.7.2.0)
     - MintegralAdSDK/SplashAd (~> 6.7.2.0)
+    - QVEditorKit/Core
     - Reachability (~> 3.2)
     - ReactiveObjC
     - SDWebImage
@@ -228,6 +229,8 @@ PODS:
   - nanopb/decode (2.30907.0)
   - nanopb/encode (2.30907.0)
   - PromisesObjC (1.2.12)
+  - QVEditorKit/Core (1.0.76):
+    - ReactiveObjC
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.10.4):
@@ -259,6 +262,7 @@ SPEC REPOS:
     - MintegralAdSDK
     - nanopb
     - PromisesObjC
+    - QVEditorKit
     - Reachability
     - ReactiveObjC
     - SDWebImage
@@ -280,7 +284,7 @@ SPEC CHECKSUMS:
   GoogleMobileAdsMediationTestSuite: a6611af7b6bf227c05fee84083f3a0f2f8e3c558
   GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
   GoogleUtilities: 31c5b01f978a70c6cff2afc6272b3f1921614b43
-  ISOMediAd: 039e2519c82c21194c02b70aa0e7ac6f7581152b
+  ISOMediAd: 2ffab9bce106efeb7370612f15b3a57a36c75dd2
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MaterialComponents: 2cdc12c16528ed7e6f1d5bd6d6927c47f9f4e90f
@@ -289,6 +293,7 @@ SPEC CHECKSUMS:
   MintegralAdSDK: 079159b99cc2bb506b19d554abf6baf82d3b2e6d
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  QVEditorKit: 55f77e8988fd10f7a98a18973e16e459fb03a450
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
