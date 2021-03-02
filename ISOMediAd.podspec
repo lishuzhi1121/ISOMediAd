@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISOMediAd'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'ISOMediAd 广告中台隔离app专用版本.'
 
 # This description is used to generate tags and improve search results.
@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
   
   #s.dependency 'mopub-ios-sdk', '5.12.1'
   
-  s.dependency 'VungleSDK-iOS', '6.9.1'
+  #s.dependency 'VungleSDK-iOS', '6.9.1'
 
   # 第三方库
   s.dependency 'AFNetworking', '~> 4.0'

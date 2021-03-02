@@ -8,8 +8,8 @@
 
 #import "XYCommonAdsViewController.h"
 #import <XYADFramework/XYAdPlatform.h>
-#import <XYADFramework/XYAdVungleBannerContainer.h>
-#import <XYADFramework/XYAdVungleMediumContainer.h>
+//#import <XYADFramework/XYAdVungleBannerContainer.h>
+//#import <XYADFramework/XYAdVungleMediumContainer.h>
 #import <Masonry/Masonry.h>
 
 @interface XYCommonAdsViewController ()
@@ -98,17 +98,17 @@
         maker.placement(@"2").adSize(CGSizeMake(self.view.bounds.size.width, 50)).viewController(weakSelf);
     }];
     if (self.bannerAdView) {
-        if ([self.bannerAdView isKindOfClass:[XYAdVungleBannerContainer class]]) {
-            // NOTE: 如果是Vungle的banner广告, 则只需要添加到父视图上, 调整居中即可,不能改变大小
-            self.bannerAdView.center = self.bannerAdViewContainner.center;
-            [self.bannerAdViewContainner addSubview:self.bannerAdView];
-        } else {
-            // NOTE: 其他的banner广告可以添加到父视图之后进行自定义布局设置
-            [self.bannerAdViewContainner addSubview:self.bannerAdView];
-            [self.bannerAdView mas_remakeConstraints:^(MASConstraintMaker *make) {
-                make.top.left.right.bottom.mas_equalTo(0);
-            }];
-        }
+//        if ([self.bannerAdView isKindOfClass:[XYAdVungleBannerContainer class]]) {
+//            // NOTE: 如果是Vungle的banner广告, 则只需要添加到父视图上, 调整居中即可,不能改变大小
+//            self.bannerAdView.center = self.bannerAdViewContainner.center;
+//            [self.bannerAdViewContainner addSubview:self.bannerAdView];
+//        } else {
+//            // NOTE: 其他的banner广告可以添加到父视图之后进行自定义布局设置
+//            [self.bannerAdViewContainner addSubview:self.bannerAdView];
+//            [self.bannerAdView mas_remakeConstraints:^(MASConstraintMaker *make) {
+//                make.top.left.right.bottom.mas_equalTo(0);
+//            }];
+//        }
         
         return YES;
     }
@@ -197,11 +197,11 @@
         maker.placement(@"16").adSize(CGSizeMake(300, 250)).viewController(self);
     }];
     if (self.mediumAdView) {
-        if ([self.mediumAdView isKindOfClass:[XYAdVungleMediumContainer class]]) {
-            // NOTE: 如果是Vungle的MREC广告, 则只需要添加到父视图上, 调整居中即可,不能改变大小
-            self.mediumAdView.center = self.mediumAdViewContainner.center;
-            [self.mediumAdViewContainner addSubview:self.mediumAdView];
-        }
+//        if ([self.mediumAdView isKindOfClass:[XYAdVungleMediumContainer class]]) {
+//            // NOTE: 如果是Vungle的MREC广告, 则只需要添加到父视图上, 调整居中即可,不能改变大小
+//            self.mediumAdView.center = self.mediumAdViewContainner.center;
+//            [self.mediumAdViewContainner addSubview:self.mediumAdView];
+//        }
         
         return YES;
     }

@@ -29,8 +29,8 @@ FOUNDATION_EXPORT const unsigned char XYADFrameworkVersionString[];
 #import <XYADFramework/XYAdvertiseConfigDataModel.h>
 #import <XYADFramework/XYAdvertiseConfigResponseModel.h>
 #import <XYADFramework/XYAdView.h>
-#import <XYADFramework/XYAdVungleBannerContainer.h>
-#import <XYADFramework/XYAdVungleMediumContainer.h>
+//#import <XYADFramework/XYAdVungleBannerContainer.h>
+//#import <XYADFramework/XYAdVungleMediumContainer.h>
 #import <XYADFramework/XYCommonAPIManager.h>
 #import <XYADFramework/XYCommonAPITools.h>
 #import <XYADFramework/XYCommonModel.h>
