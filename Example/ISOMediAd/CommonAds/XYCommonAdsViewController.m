@@ -141,7 +141,7 @@
 - (void)fetchRewardAd {
     __weak typeof(self) weakSelf = self;
     [[XYAdPlatform sharedInstance] preloadRewardAdWithParamMaker:^(XYAdPlatformAdParamMaker * _Nonnull maker) {
-        maker.placement(@"1").from(NSStringFromClass(weakSelf.class)).viewController(weakSelf);
+        maker.placement(@"2").from(NSStringFromClass(weakSelf.class)).viewController(weakSelf);
     } result:^(XYAdModule *adModule, XYAdFetchStatus status) {
         if (status == XYAdFetchStatusSuccess) {
             [weakSelf showRewardAd];
@@ -152,7 +152,7 @@
 - (void)showRewardAd {
     __weak typeof(self) weakSelf = self;
     [[XYAdPlatform sharedInstance] showRewardAdWithParamMaker:^(XYAdPlatformAdParamMaker * _Nonnull maker) {
-        maker.placement(@"1").viewController(weakSelf);
+        maker.placement(@"2").viewController(weakSelf);
     }
                                                onRewardResult:^(XYAdModule *adModule, BOOL isRewarded) {
         NSLog(@"--- placement: %@ producer: %@ isRewarded: %d ---", adModule.adsPlacement, adModule.adsProducer, isRewarded);

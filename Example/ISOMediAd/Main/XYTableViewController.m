@@ -59,7 +59,7 @@
         self.splashAdView = nil;
     }
     self.splashAdView = [[XYAdPlatform sharedInstance] createSplashAdViewWithParamMaker:^(XYAdPlatformAdParamMaker * _Nonnull maker) {
-        maker.placement(@"16").adFrame(self.view.bounds).viewController(self);
+        maker.placement(@"1").adFrame(self.view.bounds).viewController(self);
     } result:^(XYAdModule *adModule, XYAdRequestState state) {
         NSLog(@"userdata: %@ --- state: %lu", adModule.userData, (unsigned long)state);
         switch (state) {
@@ -71,7 +71,7 @@
                 NSLog(@"--- 开屏广告加载成功,即将展示 ---");
                 // 广告加载成功后展示
                 [[XYAdPlatform sharedInstance] showSplashAdViewWithParamMaker:^(XYAdPlatformAdParamMaker * _Nonnull maker) {
-                    maker.placement(@"16").adFrame(self.view.bounds).viewController(self);
+                    maker.placement(@"1").adFrame(self.view.bounds).viewController(self);
                 }];
                 break;
             }
