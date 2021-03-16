@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISOMediAd'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'ISOMediAd 广告中台隔离app专用版本.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files = 'ISOMediAd/Classes/**/*'
-  s.vendored_frameworks = 'ISOMediAd/PrivateSDK/ApplinsSDK.framework','ISOMediAd/PrivateSDK/IWOWMoatMobileAppKit.framework','ISOMediAd/PrivateSDK/JRAnalysisKit.framework','ISOMediAd/PrivateSDK/XYADFramework.framework'
+  s.vendored_frameworks = 'ISOMediAd/PrivateSDK/ApplinsSDK.framework','ISOMediAd/PrivateSDK/JRAnalysisKit.framework','ISOMediAd/PrivateSDK/XYADFramework.framework'
   # s.resource_bundles = {
   #   'ISOMediAd' => ['ISOMediAd/Assets/*.png']
   # }

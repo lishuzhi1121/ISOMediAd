@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - FBAudienceNetwork (6.2.0):
     - FBSDKCoreKit/Basics (>= 7.0.1)
-  - FBSDKCoreKit/Basics (9.0.1)
+  - FBSDKCoreKit/Basics (9.1.0)
   - Google-Mobile-Ads-SDK (7.67.0):
     - GoogleAppMeasurement (~> 6.0)
     - GoogleUserMessagingPlatform (~> 1.1)
@@ -53,7 +53,7 @@ PODS:
   - "GoogleUtilities/NSData+zlib (6.7.2)"
   - GoogleUtilities/Reachability (6.7.2):
     - GoogleUtilities/Logger
-  - ISOMediAd (1.0.6):
+  - ISOMediAd (1.0.8):
     - AFNetworking (~> 4.0)
     - FBAudienceNetwork
     - Google-Mobile-Ads-SDK (= 7.67.0)
@@ -208,7 +208,7 @@ PODS:
     - MaterialComponents/private/Math
     - MDFTextAccessibility
   - MDFInternationalization (2.0.0)
-  - MDFTextAccessibility (2.0.0)
+  - MDFTextAccessibility (2.0.1)
   - MintegralAdSDK/BannerAd (6.7.2.0):
     - MintegralAdSDK/NativeAd
   - MintegralAdSDK/InterstitialAd (6.7.2.0):
@@ -274,19 +274,19 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FBAudienceNetwork: 69193f0362accc40305703fb3265342416971446
-  FBSDKCoreKit: fada1a6a0076724678993ff05a633848765ff18c
+  FBSDKCoreKit: a00fe2efd780c195a5e09201bf51c56106245b40
   Google-Mobile-Ads-SDK: 8b58584890539de4527c47ef01e4da941a10bc8a
   GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
   GoogleMobileAdsMediationFacebook: ddb77010c35140cbd974c12c30a93a170a29d5ef
   GoogleMobileAdsMediationTestSuite: a6611af7b6bf227c05fee84083f3a0f2f8e3c558
   GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
   GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
-  ISOMediAd: fda97161d3c11359525531ab135dbc5c426c88ad
+  ISOMediAd: ad060232ef15bfab295a879f5f7e47156a2fd83b
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MaterialComponents: 2cdc12c16528ed7e6f1d5bd6d6927c47f9f4e90f
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
-  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   MintegralAdSDK: 079159b99cc2bb506b19d554abf6baf82d3b2e6d
   nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
