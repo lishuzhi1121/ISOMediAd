@@ -25,6 +25,7 @@ FOUNDATION_EXTERN NSString * const XYAdProducerWM;
 FOUNDATION_EXTERN NSString * const XYAdProducerJR;
 FOUNDATION_EXTERN NSString * const XYAdProducerVungle;
 FOUNDATION_EXTERN NSString * const XYAdProducerMoPub;
+FOUNDATION_EXTERN NSString * const XYAdProducerAdColony;
 
 /* Types */
 FOUNDATION_EXTERN NSString * const XYAdTypeNative;
@@ -41,6 +42,7 @@ typedef NS_ENUM(NSInteger, XYAdProducers) {
     XYAdProducers_Facebook       = 1,
     XYAdProducers_AdMob          = 2,
     XYAdProducers_Mobv           = 3, //Mob维斯塔
+    XYAdProducers_AdColony       = 7, //AdColony
     XYAdProducers_AppLovin       = 9,  //已移除
     XYAdProducers_Baidu          = 10, //已移除
     XYAdProducers_YeahMobi       = 11,

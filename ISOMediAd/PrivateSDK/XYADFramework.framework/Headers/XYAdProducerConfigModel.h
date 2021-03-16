@@ -39,6 +39,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *mopubAdUnitId;
 #endif
 
+#if __has_include("XYAdColony.h")
+/// AdColony 广告商AppId
+@property (nonatomic, copy) NSString *adcolonyAppId;
+/// AdColony 广告商zoneIDs
+@property (nonatomic, strong) NSArray *adcolonyZoneIDs;
+
+#endif
+
 @end
 
 NS_ASSUME_NONNULL_END

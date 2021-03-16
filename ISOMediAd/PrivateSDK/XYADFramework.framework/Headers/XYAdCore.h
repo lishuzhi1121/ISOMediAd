@@ -134,6 +134,13 @@ NS_ASSUME_NONNULL_BEGIN
             viewController:(UIViewController *)viewController
                       from:(NSString *)from;
 
+- (BOOL)showAdsByPlacement:(NSString *)placement
+                 producers:(NSArray <NSString *>*)producers
+                    adType:(XYAdType)type
+            viewController:(UIViewController *)controller
+                customView:(nullable UIView *)customView
+                      from:(NSString *)from;
+
 /*
  *  预加载广告
  */
@@ -159,6 +166,17 @@ NS_ASSUME_NONNULL_BEGIN
                           adType:(XYAdType)type
                   viewController:(UIViewController *)controller
                   clickableViews:(nullable NSArray<UIView *> *)clickableViews;
+
+- (void)xyAdCore_registerAdsView:(XYAdView *)adView
+                          adType:(XYAdType)type
+                  viewController:(UIViewController *)controller
+                withoutMediaView:(BOOL)withoutMediaView;
+
+- (void)xyAdCore_registerAdsView:(XYAdView *)adView
+                          adType:(XYAdType)type
+                  viewController:(UIViewController *)controller
+                  clickableViews:(nullable NSArray<UIView *> *)clickableViews
+                withoutMediaView:(BOOL)withoutMediaView;
 
 /*
  *  获取广告View

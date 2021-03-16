@@ -25,7 +25,6 @@
 //}];
 
 #import "XYAdKitConfigDef.h"
-#import <UIKit/UIKit.h>
 @class XYAdPlatformAdParamMakerParam;
 
 @interface XYAdPlatformAdParamMaker : NSObject
@@ -37,6 +36,8 @@
 @property (nonatomic, copy, readonly) XYAdPlatformAdParamMaker *(^ from)(NSString *from);
 
 @property (nonatomic, copy, readonly) XYAdPlatformAdParamMaker *(^ viewController)(UIViewController *viewController);
+
+@property (nonatomic, copy, readonly) XYAdPlatformAdParamMaker *(^ customView)(UIView *customView);
 
 @property (nonatomic, assign, readonly) XYAdPlatformAdParamMaker *(^ fetchStrategyType)(XYAdFetchStrategyType fetchStrategyType);
 
@@ -54,6 +55,8 @@
 @property (nonatomic, copy) NSString *from;
 
 @property (nonatomic, weak) UIViewController *viewController;
+
+@property (nonatomic, weak) UIView *customView;
 
 @property (nonatomic, assign) XYAdFetchStrategyType fetchStrategyType;
 

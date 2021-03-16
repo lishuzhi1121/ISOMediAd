@@ -32,6 +32,11 @@
 @property (nonatomic) NSInteger cacheFlag;
 @property (nonatomic) NSInteger numberOfAdsToFetch;
 @property (nonatomic) XYADState adState;
+/// FB 赞助商内容(仅FB原生广告有)
+@property (nonatomic, copy) NSString * _Nullable sponsored;
+@property (nonatomic, copy) NSString * _Nullable headline;
+@property (nonatomic, copy) NSString * _Nullable bodyText;
+@property (nonatomic, copy) NSString * _Nullable callToAction;
 
 //- (BOOL)xy_adModuleIsCached;
 
@@ -41,7 +46,6 @@
 @property (nonatomic, copy, nullable) NSString *subtitle;
 @property (nonatomic, copy, nullable) NSString *body;
 @property (nonatomic, copy, nullable) NSString *socialContext;
-@property (nonatomic, copy, nullable) NSString *callToAction;
 @property (nonatomic, copy, nullable) NSString *adChoicesText;
 @property (nonatomic, strong, nullable) XYAdMediaAsset *icon;
 @property (nonatomic, strong, nullable) XYAdMediaAsset *coverImage;

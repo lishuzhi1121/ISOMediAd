@@ -32,6 +32,9 @@
 /// 广告的actionButton
 @property (nonatomic, strong) UIButton *actionButton;
 
+/// 广告素材视图背景颜色(仅作用于Admob)
+@property (nonatomic, strong) UIColor *adMediaViewBackgroundColor;
+
 @property (nonatomic, strong) UIImageView *adCoverImageView;
 @property (nonatomic, strong) UIImageView *adLogoImageView;
 @property (nonatomic, strong) UILabel *adLabel;
