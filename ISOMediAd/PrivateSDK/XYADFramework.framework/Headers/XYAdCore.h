@@ -179,6 +179,11 @@ NS_ASSUME_NONNULL_BEGIN
                 withoutMediaView:(BOOL)withoutMediaView;
 
 /*
+ *  取消注册广告View
+ */
+- (void)xyAdCore_unregisterAdsModule:(XYAdModule *)adsModule;
+
+/*
  *  获取广告View
  */
 - (UIView *)xyAdCore_getAdsView:(NSString *)placement

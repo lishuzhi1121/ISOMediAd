@@ -10,7 +10,7 @@
 #import "XYAdsCommonDefine.h"
 #import <XYADFramework/XYAdPlatform.h>
 #import <Masonry/Masonry.h>
-#import <GoogleMobileAdsMediationTestSuite/GoogleMobileAdsMediationTestSuite.h>
+//#import <GoogleMobileAdsMediationTestSuite/GoogleMobileAdsMediationTestSuite.h>
 
 #import "XYCommonAdsViewController.h"
 #import "XYNativeAdsCollectionViewController.h"
@@ -35,7 +35,7 @@
 }
 
 - (IBAction)AdMobMediationClicked:(UIBarButtonItem *)sender {
-    [GoogleMobileAdsMediationTestSuite presentOnViewController:self delegate:nil];
+//    [GoogleMobileAdsMediationTestSuite presentOnViewController:self delegate:nil];
 }
 
 

@@ -68,6 +68,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)registerNativeAdView:(XYAdView *)adView
               viewController:(UIViewController *)viewController;
 
+/// 取消注册Native广告, 用于移除缓存, 清理内存
+/// @param registedAdModule 注册过的adModule对象
+- (void)unregisterNativeAdModule:(XYAdModule *)registedAdModule;
+
 #pragma mark - 奖励视频广告
 ///预加载奖励视频广告
 /// @param paramMakerBlock 参数设置block

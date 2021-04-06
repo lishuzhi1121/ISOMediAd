@@ -14,6 +14,7 @@
 
 @interface XYAdMediaAsset : NSObject
 
+@property (nonatomic, strong) UIImage *image;
 @property (nonatomic, copy, nullable) NSURL *url;
 @property (nonatomic, assign) CGFloat width;
 @property (nonatomic, assign) CGFloat height;
