@@ -85,6 +85,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showRewardAdWithParamMaker:(void(^)(XYAdPlatformAdParamMaker *maker))paramMakerBlock
                     onRewardResult:(void (^)(XYAdModule *adModule, BOOL isRewarded))rewardResultHandler;
 
+///展示奖励视频广告
+/// @param paramMakerBlock 参数设置block
+/// @param rewardResultHandler 激励结果回调block
+/// @param rewardAdCloseHandler 激励关闭回调block
+- (void)showRewardAdWithParamMaker:(void(^)(XYAdPlatformAdParamMaker *maker))paramMakerBlock
+                    onRewardResult:(void (^)(XYAdModule *adModule, BOOL isRewarded))rewardResultHandler
+                   onRewardAdClose:(void (^)(XYAdModule *adModule))rewardAdCloseHandler;
+
 
 #pragma mark - 插屏广告
 ///获取插屏广告
