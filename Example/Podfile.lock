@@ -14,40 +14,49 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FBAudienceNetwork (6.3.1):
-    - FBSDKCoreKit/Basics (>= 7.0.1)
-  - FBSDKCoreKit/Basics (9.1.0)
+  - FBAudienceNetwork (6.5.1):
+    - FBSDKCoreKit_Basics
+  - FBSDKCoreKit_Basics (11.0.1):
+    - FBSDKCoreKit_Basics/Basics (= 11.0.1)
+  - FBSDKCoreKit_Basics/Basics (11.0.1)
   - Google-Mobile-Ads-SDK (8.2.0.1):
     - GoogleAppMeasurement (~> 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAppMeasurement (7.9.0):
+  - GoogleAppMeasurement (7.11.0):
+    - GoogleAppMeasurement/AdIdSupport (= 7.11.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
     - GoogleUtilities/MethodSwizzler (~> 7.0)
     - GoogleUtilities/Network (~> 7.0)
     - "GoogleUtilities/NSData+zlib (~> 7.0)"
-    - nanopb (~> 2.30907.0)
-  - GoogleMobileAdsMediationFacebook (6.3.1.0):
-    - FBAudienceNetwork (= 6.3.1)
-    - Google-Mobile-Ads-SDK (>= 8.2.0)
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (7.11.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30908.0)
+  - GoogleMobileAdsMediationFacebook (6.5.1.0):
+    - FBAudienceNetwork (= 6.5.1)
+    - Google-Mobile-Ads-SDK (~> 8.0)
   - GoogleUserMessagingPlatform (2.0.0)
-  - GoogleUtilities/AppDelegateSwizzler (7.3.1):
+  - GoogleUtilities/AppDelegateSwizzler (7.4.3):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.3.1):
+  - GoogleUtilities/Environment (7.4.3):
     - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (7.3.1):
+  - GoogleUtilities/Logger (7.4.3):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (7.3.1):
+  - GoogleUtilities/MethodSwizzler (7.4.3):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (7.3.1):
+  - GoogleUtilities/Network (7.4.3):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.3.1)"
-  - GoogleUtilities/Reachability (7.3.1):
+  - "GoogleUtilities/NSData+zlib (7.4.3)"
+  - GoogleUtilities/Reachability (7.4.3):
     - GoogleUtilities/Logger
-  - ISOMediAd (1.2.0):
+  - ISOMediAd (1.2.3):
     - AFNetworking (~> 4.0)
     - FBAudienceNetwork
     - Google-Mobile-Ads-SDK (~> 8.2.0)
@@ -66,6 +75,8 @@ PODS:
     - ReactiveObjC
     - SDWebImage
     - SVProgressHUD (~> 2.2.5)
+    - XYCategory
+    - XYMediEventAdapter
     - YYModel
   - Mantle (2.1.6):
     - Mantle/extobjc (= 2.1.6)
@@ -84,20 +95,26 @@ PODS:
     - MintegralAdSDK/NativeAd
   - MintegralAdSDK/SplashAd (6.7.2.0):
     - MintegralAdSDK/NativeAd
-  - nanopb (2.30907.0):
-    - nanopb/decode (= 2.30907.0)
-    - nanopb/encode (= 2.30907.0)
-  - nanopb/decode (2.30907.0)
-  - nanopb/encode (2.30907.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
   - PromisesObjC (1.2.12)
-  - QVEditorKit/Core (1.0.78):
+  - QVEditorKit/Core (1.1.13):
     - ReactiveObjC
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.10.4):
-    - SDWebImage/Core (= 5.10.4)
-  - SDWebImage/Core (5.10.4)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
   - SVProgressHUD (2.2.5)
+  - XYCategory (2.0.1):
+    - XYCategory/Foundation (= 2.0.1)
+    - XYCategory/UIKit (= 2.0.1)
+  - XYCategory/Foundation (2.0.1)
+  - XYCategory/UIKit (2.0.1)
+  - XYMediEventAdapter (2.0.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -107,7 +124,7 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - FBAudienceNetwork
-    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
     - GoogleMobileAdsMediationFacebook
@@ -123,6 +140,8 @@ SPEC REPOS:
     - ReactiveObjC
     - SDWebImage
     - SVProgressHUD
+    - XYCategory
+    - XYMediEventAdapter
     - YYModel
 
 EXTERNAL SOURCES:
@@ -131,24 +150,26 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  FBAudienceNetwork: 443e9c5e717e2d80c0253535a57e2681d34d9571
-  FBSDKCoreKit: a00fe2efd780c195a5e09201bf51c56106245b40
+  FBAudienceNetwork: 9a5f277d6ed36a46354a045c46a4858b47407a72
+  FBSDKCoreKit_Basics: 06780a4a12e16596bde8406add02c6aa1bf38616
   Google-Mobile-Ads-SDK: b48fb7dc45b2e442a217dd96875586fda7d5e553
-  GoogleAppMeasurement: 120eec8803fe65a4a7475fb3d3d59a61d0e1a866
-  GoogleMobileAdsMediationFacebook: ede1b57a00d79d04655a6bea56939b5f56153ced
+  GoogleAppMeasurement: fd19169c3034975cb934e865e5667bfdce59df7f
+  GoogleMobileAdsMediationFacebook: 83729e35dabb60960aa4e708fa4dcbaebb8ed85b
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
-  GoogleUtilities: e1d9ed4e544fc32a93e00e721400cbc3f377200d
-  ISOMediAd: c0e823898c241cc7afef323c665a550abc35f4b9
+  GoogleUtilities: 45dbb24a7f351d69d0a601482b39ad6c32e30dab
+  ISOMediAd: 0209626384c76f8712d89ea2941437d37501f13c
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MintegralAdSDK: 079159b99cc2bb506b19d554abf6baf82d3b2e6d
-  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
-  QVEditorKit: 44012b1128dfc148ca463c1d6e9c711703a60a4f
+  QVEditorKit: e135c43f3d0d91308fa46ba64663655f27935f0d
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  XYCategory: f77eac69f051a32cb5256458567ea34316d324f4
+  XYMediEventAdapter: a81c8b6d67a47218bd0ad5939b71f108cd5408be
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 6d1ef26e252bc3f2997fcc1164acbca8edfa7692

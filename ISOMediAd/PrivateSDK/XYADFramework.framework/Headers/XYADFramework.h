@@ -36,5 +36,4 @@ FOUNDATION_EXPORT const unsigned char XYADFrameworkVersionString[];
 #import <XYADFramework/XYCommonModel.h>
 #import <XYADFramework/XYCommonParamsModel.h>
 #import <XYADFramework/XYCommonQADomainMap.h>
-#import <XYADFramework/XYMediEventManager.h>
-#import <XYADFramework/XYMediEventProtocol.h>
+

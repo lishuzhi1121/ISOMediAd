@@ -1,0 +1,6 @@
+framework module XYMediEventAdapter {
+  umbrella header "XYMediEventAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

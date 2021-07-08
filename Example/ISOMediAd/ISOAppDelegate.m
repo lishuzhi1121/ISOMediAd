@@ -9,7 +9,7 @@
 #import "ISOAppDelegate.h"
 
 #import <XYADFramework/XYCommonAPIManager.h>
-#import <XYADFramework/XYMediEventManager.h>
+#import <XYMediEventAdapter/XYMediEventManager.h>
 
 #import <XYADFramework/XYAdPlatform.h>
 #import <XYADFramework/XYAdCore.h>
